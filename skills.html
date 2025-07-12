@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skills | Nisha Thorat</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body class="light-theme">
+  <header class="header">
+    <div class="logo">Nisha</div>
+    <nav class="navbar">
+      <a href="index.html"><i class="fas fa-home"></i> Home</a>
+      <a href="about.html"><i class="fas fa-user"></i> About</a>
+      <a href="skills.html" class="active"><i class="fas fa-code"></i> Skills</a>
+      <button id="theme-toggle" class="theme-btn">
+        <i class="fas fa-adjust"></i>
+      </button>
+    </nav>
+  </header>
+  <section class="skills-section">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card html">
+        <i class="fab fa-html5"></i>
+        <h3>HTML</h3>
+        <p>I'm learning this language to structure websites.</p>
+      </div>
+      <div class="skill-card css">
+        <i class="fab fa-css3-alt"></i>
+        <h3>CSS</h3>
+        <p>I use CSS to style and design beautiful web pages.</p>
+      </div>
+      <div class="skill-card js">
+        <i class="fab fa-js"></i>
+        <h3>JavaScript</h3>
+        <p>JavaScript adds interaction and dynamic features.</p>
+      </div>
+      <div class="skill-card python">
+        <i class="fab fa-python"></i>
+        <h3>Python</h3>
+        <p>I'm learning Python for backend logic and scripting.</p>
+      </div>
+      <div class="skill-card java">
+        <i class="fab fa-java"></i>
+        <h3>Java</h3>
+        <p>I use Java for object-oriented programming and backend.</p>
+      </div>
+      <div class="skill-card c">
+        <i class="fas fa-code"></i>
+        <h3>C</h3>
+        <p>Learning fundamentals of programming using C.</p>
+      </div>
+      <div class="skill-card cpp">
+        <i class="fas fa-code"></i>
+        <h3>C++</h3>
+        <p>Practicing C++ for problem solving and OOP basics.</p>
+      </div>
+      <div class="skill-card php">
+        <i class="fab fa-php"></i>
+        <h3>PHP</h3>
+        <p>Exploring PHP for server-side web development.</p>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <p>&copy; 2025 Nisha Thorat. Designed & Developed with ❤️</p>
+    <div class="footer-icons">
+      <a href="https://github.com/nisha-thorat" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/nisha-thorat-668341288" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="mailto:nishathorat123455@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+      document.body.classList.toggle("dark-theme");
+      document.body.classList.toggle("light-theme");
+    });
+  </script>
+</body>
+</html>
